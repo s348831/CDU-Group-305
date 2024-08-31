@@ -1,8 +1,12 @@
-
-
-
-
-
+#Group name:[Cas group 305]
+#Group Members:
+#[Reece Colgan] - S377586
+#[Hayden Powell] - S376682
+#[Daniel Sales] - S322244
+#[Luke Few] - S348831
+print("Cas Group 305 - Assignment 2")
+print("Question 2")
+print() #Print space
 
 
 import time
