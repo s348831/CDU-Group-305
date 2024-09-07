@@ -24,8 +24,7 @@ key = ????????????????
 encrypted_code = encrypt(original_code, key)
 print(encrypted_code)
 
-#Decryption key
-
+#Decryption code
 total = 0
 for i in range (5):
   for j in range (3):
@@ -43,3 +42,5 @@ while counter < 5:
     counter += 2
 
 print(total)
+
+#Decryption key = 13
