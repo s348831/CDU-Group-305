@@ -21,6 +21,9 @@ def encrypt(text, key):
     return encrypted_text
 
 key = 13                                         #Input key from decryption code
+
+original_code="""
+
 encrypted_code = encrypt(original_code, key)
 print(encrypted_code)
 
