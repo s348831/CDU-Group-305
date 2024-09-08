@@ -1,5 +1,5 @@
 global_variable = 100
-my_dict = {'key1': 'value1' 'key2': 'value2', 'key3': 'value3'}
+my_dict = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
 
 def process_numbers():
     global global_variable
@@ -13,29 +13,34 @@ def process_numbers():
 
     return numbers
 
-my_set = {1, 2, 3, 4, 5, 5, 4, 3, 2, 1}
-result = process_numbers(numbers=my_set)
+#my_set = {1, 2, 3, 4, 5, 5, 4, 3, 2, 1}         #Duplicate numbers in a set cancel out, this set should be {1, 2, 3, 4, 5} to provide the same result
+my_set = {1, 2, 3, 4, 5}
+#result = process_numbers(numbers=my_set)        #Remove numbers=my_set as process_numbers doesnt require a parameter , or leave and add numbers to parenthises line4?
+result = process_numbers()
 
-def modify_dict():
+#def modify_dict():                               #Added local_variable into to modify_dict() to assign variable 10 to key4 and ensure line 35 coditions are met
+def modify_dict(local_variable):
     local_variable = 10
-    my_dict['key4'] = local_variable
+    my_dict['key4'] = local_variable             
 
-modify_dict(5)
+modify_dict(5)                                    
 
 def update_global():
     global global_variable
     global_variable += 10
 
+update_global()                                 #Add update_global if the code intents to update the global variable
+            
 for i in range (5):
     print(i)
-    i += 1
+    #i += 1                                     #i += 1 is not required as the for call already takes care of incramenting i
 
-if my_set is not None and my_dict['key4'] == 10
+if my_set is not None and my_dict['key4'] == 10:   
     print("Condition met!")
 
-if 5 not in MY_dict:
-    print("5 not found in the dictionary!")
+if 5 not in my_dict:
+    print("5 not found in the dictionary!")        
 
 print(global_variable)
 print(my_dict)
-Print(my_set)
+print(my_set)
