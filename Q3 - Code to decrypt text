@@ -22,7 +22,7 @@ key = 13                                         #Input key from decryption code
 
 original_code="""                                #Encrypted text
 tybony_inevnoyr = 100
-zl_qvpg = {'xrl1': 'inyhr1' 'xrl2': 'inyhr2', 'xrl3': 'inyhr3'}
+zl_qvpg = {'xrl1': 'inyhr1', 'xrl2': 'inyhr2', 'xrl3': 'inyhr3'}
 
 qrs cebprff_ahzoref():
     tybony tybony_inevnoyr
@@ -53,15 +53,15 @@ sbe v va enatr (5):
     cevag(v)
     v += 1
 
-vs zl_frg vf abg Abar naq zl_qvpg['xrl4'] == 10
+vs zl_frg vf abg Abar naq zl_qvpg['xrl4'] == 10:
     cevag("Pbaqvgvba zrg!")
 
-vs 5 abg va ZL_qvpg:
+vs 5 abg va zl_qvpg:
     cevag("5 abg sbhaq va gur qvpgvbanel!")
 
 cevag(tybony_inevnoyr)
 cevag(zl_qvpg)
-Cevag(zl_frg)
+cevag(zl_frg)
 """
 encrypted_code = encrypt(original_code, key)
 print(encrypted_code)
