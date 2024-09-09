@@ -1,3 +1,13 @@
+#Group name:[Cas group 305]
+#Group Members:
+#[Reece Colgan] - S377586
+#[Hayden Powell] - S376682
+#[Daniel Sales] - S322244
+#[Luke Few] - S348831
+print("Cas Group 305 - Assignment 2")
+print("Question 3")
+print() #Print space
+
 #Q3 Step 3 - Run decrypted text and fix all errors
 
 global_variable = 100
