@@ -18,9 +18,9 @@ def encrypt(text, key):                    #Encryption code
             encrypted_text += char
     return encrypted_text
 
-key = 13                                         #Input key from decryption code
+key = 13                                         #Input key from decryption key
 
-original_code="""                                #Encrypted text
+original_code="""                                #input encrypted text
 tybony_inevnoyr = 100
 zl_qvpg = {'xrl1': 'inyhr1', 'xrl2': 'inyhr2', 'xrl3': 'inyhr3'}
 
@@ -64,6 +64,6 @@ cevag(zl_qvpg)
 cevag(zl_frg)
 """
 encrypted_code = encrypt(original_code, key)
-print(encrypted_code)
+print(encrypted_code)                            #Prints decrypted text
 
 
