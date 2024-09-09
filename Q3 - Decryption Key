@@ -1,3 +1,4 @@
+#Q3 step 1 - Run code to find encryption key
 #Decryption code
 total = 0
 for i in range (5):
