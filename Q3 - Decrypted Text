@@ -18,12 +18,12 @@ my_set = {1, 2, 3, 4, 5}
 #result = process_numbers(numbers=my_set)        #Remove numbers=my_set as process_numbers doesnt require a parameter , or leave and add numbers to parenthises line4?
 result = process_numbers()
 
-#def modify_dict():                               #Added local_variable into to modify_dict() to assign variable 10 to key4 and ensure line 35 coditions are met
+#def modify_dict():                               #Added local_variable into to modify_dict() to assign variable 10 to key4 and ensure line 38 coditions are met
 def modify_dict(local_variable):
     local_variable = 10
     my_dict['key4'] = local_variable             
 
-modify_dict(5)                                    
+modify_dict(5)                                   #5 is not used as its overwritten by the assignment of 10 above, change number to 10 inside the perenthises? 
 
 def update_global():
     global global_variable
