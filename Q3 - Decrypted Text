@@ -15,15 +15,16 @@ def process_numbers():
 
 #my_set = {1, 2, 3, 4, 5, 5, 4, 3, 2, 1}         #Duplicate numbers in a set cancel out, this set should be {1, 2, 3, 4, 5} to provide the same result
 my_set = {1, 2, 3, 4, 5}
-#result = process_numbers(numbers=my_set)        #Remove numbers=my_set as process_numbers doesnt require a parameter , or leave and add numbers to parenthises line4?
+#result = process_numbers(numbers=my_set)        #Remove numbers=my_set as process_numbers doesnt require a parameter
 result = process_numbers()
 
-#def modify_dict():                               #Added local_variable into to modify_dict() to assign variable 10 to key4 and ensure line 38 coditions are met
+#def modify_dict():                               #Added local_variable into modify_dict() to assign variable 10 to key4 and ensure line 39 coditions are met
 def modify_dict(local_variable):
     local_variable = 10
     my_dict['key4'] = local_variable             
 
-modify_dict(5)                                   #5 is not used as its overwritten by the assignment of 10 above, change number to 10 inside the perenthises? 
+#modify_dict(5)                                   #5 is not used as its overwritten by the assignment of 10 above, change number to 10 inside the perenthises? 
+modify_dict(10)
 
 def update_global():
     global global_variable
