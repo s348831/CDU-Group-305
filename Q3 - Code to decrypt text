@@ -1,3 +1,5 @@
+#Q3 Step 2 - input key from step 1 and encrypted text into encryption code to decipher text
+
 def encrypt(text, key):                    #Encryption code
     encrypted_text = ""
     for char in text:
