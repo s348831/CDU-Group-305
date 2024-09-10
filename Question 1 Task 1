@@ -1,0 +1,25 @@
+# Import libraries
+import csv
+import os
+
+# Set file paths with OS
+CSV_Path = os.path.join(os.path.dirname(__file__))
+Combined_Text_Path = os.path.join(os.path.dirname(__file__), 'Combined_Text.txt')
+
+# List files in folder
+CSV_Files = [f for f in os.listdir(CSV_Path) if f.endswith('.csv')]
+
+# Create combined text file
+with open(Combined_Text_Path, 'w') as outfile:
+    for CSV_File in CSV_Files:       
+
+        # Open CSV files and read
+        with open(os.path.join(CSV_Path, CSV_File), 'r') as file:
+           reader = csv.reader(file)
+
+           # Read and rewrite text into new file
+           for row in reader:
+               for cell in row:
+                  outfile.write(cell + '\n')    # Seperate by new line
+
+print("CSV Files combined and saved to '{Combined_Text_Path}'")
