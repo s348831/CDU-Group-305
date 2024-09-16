@@ -11,7 +11,7 @@ print() #Print space
 import subprocess
 import sys
 
-subprocess.check_call([sys.executable, "-m", "pip", "install", "Pillow"])
+subprocess.check_call([sys.executable, "-m", "pip", "install", "spacy"])
 
 subprocess.check_call([sys.executable, "-m", "pip", "install", "scispacy"])
 
