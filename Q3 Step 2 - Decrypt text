@@ -21,7 +21,7 @@ def encrypt(text, key):                    #Encryption code
             encrypted_text += char
     return encrypted_text
 
-key = 13                                         #Input key from decryption code
+key = 13                                         #Input key from encryption code
 
 original_code="""                                #input encrypted text
 tybony_inevnoyr = 100
