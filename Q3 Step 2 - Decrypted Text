@@ -30,23 +30,23 @@ my_set = {1, 2, 3, 4, 5}
 #result = process_numbers(numbers=my_set)        #Remove numbers=my_set as process_numbers doesnt require a parameter
 result = process_numbers()
 
-#def modify_dict():                               #Added local_variable into modify_dict() to assign variable 10 to key4 and ensure line 39 coditions are met
+#def modify_dict():                               #Added local_variable into modify_dict() to assign variable 10 to key4 and ensure line 51 coditions are met
 def modify_dict(local_variable):
     local_variable = 10
     my_dict['key4'] = local_variable             
 
-#modify_dict(5)                                   #5 is not used as its overwritten by the assignment of 10 above, change number to 10 inside the perenthises? 
+#modify_dict(5)                                   #5 is not used as its overwritten by the assignment of 10 above, change number to 10 inside the perenthises 
 modify_dict(10)
 
 def update_global():
     global global_variable
     global_variable += 10
 
-update_global()                                 #Add update_global if the code intents to update the global variable
+update_global()                                 #Add update_global if the code intends to update the global variable
             
 for i in range (5):
     print(i)
-    #i += 1                                     #i += 1 is not required as the for call already takes care of incramenting i
+    #i += 1                                     #i += 1 is not required as the for call already takes care of incrementing i
 
 if my_set is not None and my_dict['key4'] == 10:   
     print("Condition met!")
