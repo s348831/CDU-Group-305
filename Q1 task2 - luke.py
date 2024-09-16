@@ -8,19 +8,15 @@ print("Cas Group 305 - Assignment 2")
 print("Question 1-Task 2")
 print() #Print space
 
-#Dependencies - These need to be installed prior to running script.
-#install spacy *run from python shell*
-#pip install spacy
+import subprocess
+import sys
 
-# install scispacy library *run from python shell*
-#pip install scispacy 
+subprocess.check_call([sys.executable, "-m", "pip", "install", "Pillow"])
 
-#install en_core_sci_sm-0.5.4 *run from python shell*
-#pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
+subprocess.check_call([sys.executable, "-m", "pip", "install", "scispacy"])
 
-#install en_ner_bc5cdr_md-0.5.4 *run from python shell*
-#pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz
+subprocess.check_call([sys.executable, "-m", "pip", "install", "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz"])
 
-#install Transformers
-#pip install transformers
+subprocess.check_call([sys.executable, "-m", "pip", "install", "https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_ner_bc5cdr_md-0.5.4.tar.gz"])
 
+subprocess.check_call([sys.executable, "-m", "pip", "install", "transformers"])
