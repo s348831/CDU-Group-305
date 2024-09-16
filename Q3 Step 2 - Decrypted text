@@ -1,26 +1,27 @@
-#Q3 Step 2 - input key from step 1 and encrypted text into encryption code to decipher text
+#Group name:[Cas group 305]
+#Group Members:
+#[Reece Colgan] - S377586
+#[Hayden Powell] - S376682
+#[Daniel Sales] - S322244
+#[Luke Few] - S348831
+print("Cas Group 305 - Assignment 2")
+print("Question 3")
+print("Step 2 - input key from step 1 and encrypted text into encryption code to decipher text")
+print() #Print space
 
 def encrypt(text, key):                    #Encryption code
     encrypted_text = ""
     for char in text:
         if char.isalpha():
-            shifted = ord(char) + key
-            if char.islower():
-                if shifted > ord('z'):
-                 shifted -= 26
-                elif shifted < ord('a'):
-                    shifted += 26
-            elif char.isupper():
-                if shifted > ord('Z'):
-                    shifted -= 26
-                elif shifted < ord('A'):
-                    shifted +=26
+            shifted = ord(char) - key
+            if shifted < ord('a'):
+                shifted += 26
             encrypted_text += chr(shifted)
         else:
             encrypted_text += char
     return encrypted_text
 
-key = 13                                         #Input key from decryption key
+key = 13                                         #Input key from decryption code
 
 original_code="""                                #input encrypted text
 tybony_inevnoyr = 100
@@ -67,5 +68,3 @@ cevag(zl_frg)
 """
 encrypted_code = encrypt(original_code, key)
 print(encrypted_code)                            #Prints decrypted text
-
-
