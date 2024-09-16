@@ -10,8 +10,10 @@ print() #Print space
 
 print("Q2 Chapter 1")
 #Import OS and Pillow Library
-#Ensure that the "pillow" package is installed 
-#this can be done by running "pip install Pillow" from the windows terminal
+import subprocess
+import sys
+
+subprocess.check_call([sys.executable, "-m", "pip", "install", "Pillow"])
 
 from PIL import Image
 import os
