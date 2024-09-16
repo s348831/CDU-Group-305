@@ -1,6 +1,6 @@
 There are a number of libraries that need to be installed for these programs to work. 
 
-You can install them by running these commands in your windows terminal:
+You can install them by running these commands in your windows terminal (this might take a few minutes):
 
 pip install Pillow
 
