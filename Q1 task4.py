@@ -1,5 +1,3 @@
-#This code takes a while to process text. Processing the text from csv 4 (1,339KB of text) takes around 20 sec. All the text is 706697KB big, and so might take over 3 hours
-
 #Group name:[Cas group 305]
 #Group Members:
 #[Reece Colgan] - S377586
@@ -7,8 +5,12 @@
 #[Daniel Sales] - S322244
 #[Luke Few] - S348831
 print("Cas Group 305 - Assignment 2")
-print("Question 1")
+print("Question 1 Task 4")
 print() #Print space
+
+print('This program might take minutes to hours to finish')
+print()
+
 #import relevant modules
 import spacy
 import re
@@ -43,4 +45,8 @@ diseasecount = Counter(disease)
 print(dict(drugscount.most_common(10)))
 print(dict(diseasecount.most_common(10)))
 
-print("--- %s seconds ---" % (time.time() - start))
+print("--- %s seconds ---" % (time.time() - start)) #so the user can see how long the operation took
+
+input("Press enter to close the program") #so user can see the output
+
+#our group ran out of time and so was not able to use biobert and thus compare the results. Furthermore, none of our computers were powerful enough to complete this program in a reasonable timeframe
