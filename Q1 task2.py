@@ -8,6 +8,8 @@ print("Cas Group 305 - Assignment 2")
 print("Question 1-Task 2")
 print() #Print space
 
+print('this may take a few minutes')
+print()
 import subprocess
 import sys
 
