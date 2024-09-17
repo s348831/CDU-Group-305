@@ -5,7 +5,7 @@
 #[Daniel Sales] - S322244
 #[Luke Few] - S348831
 print("Cas Group 305 - Assignment 2")
-print("Question 2")
+print("Question 2.2")
 print() #Print space
 
 def decrypt(text, key):                   
