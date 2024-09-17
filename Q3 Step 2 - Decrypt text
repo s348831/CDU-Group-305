@@ -5,7 +5,7 @@
 #[Daniel Sales] - S322244
 #[Luke Few] - S348831
 print("Cas Group 305 - Assignment 2")
-print("Question 3")
+print("Question 3 Step 2")
 print("Step 2 - input key from step 1 and encrypted text into encryption code to decipher text")
 print() #Print space
 
@@ -68,3 +68,5 @@ cevag(zl_frg)
 """
 encrypted_code = encrypt(original_code, key)
 print(encrypted_code)                            #Prints decrypted text
+
+input("Press enter to close the program") #so user can see the output
