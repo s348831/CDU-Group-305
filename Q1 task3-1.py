@@ -5,7 +5,7 @@
 #[Daniel Sales] - S322244
 #[Luke Few] - S348831
 print("Cas Group 305 - Assignment 2")
-print("Question 1-Task 3")
+print("Question 1-Task 3.1")
 print() #Print space
 
 from collections import Counter
