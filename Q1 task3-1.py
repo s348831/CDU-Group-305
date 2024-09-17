@@ -5,7 +5,7 @@
 #[Daniel Sales] - S322244
 #[Luke Few] - S348831
 print("Cas Group 305 - Assignment 2")
-print("Question 1-Task 3.1")
+print("Question 1 Task 3.1")
 print() #Print space
 
 from collections import Counter
@@ -28,4 +28,4 @@ with open('Listwords.csv', 'w') as csv_file:
     for key, value in List.items():
        writer.writerow([key, value])
 
-
+input("Press enter to close the program") #so user can see the output
