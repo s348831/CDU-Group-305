@@ -5,7 +5,7 @@
 #[Daniel Sales] - S322244
 #[Luke Few] - S348831
 print("Cas Group 305 - Assignment 2")
-print("Question 1-Task 2")
+print("Question 1 Task 2")
 print() #Print space
 
 print('this may take a few minutes')
