@@ -1,3 +1,5 @@
+#This code takes a while to process text. Processing the text from csv 4 (1,339KB of text) takes around 20 sec. All the text is 706697KB big, and so might take over 3 hours
+
 #Group name:[Cas group 305]
 #Group Members:
 #[Reece Colgan] - S377586
