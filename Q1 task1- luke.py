@@ -24,7 +24,7 @@ def csvs_to_text(csv_file_paths_with_columns, text_file_path):
                     for row in csv_reader:
                         selected_columns = [row[i] for i in columns if i < len(row)] #selected columns
                         line = ','.join(selected_columns)
-                        text_file.write(line + '.\n') #write data to .txt file
+                        text_file.write(line + '. \n') #write data to .txt file
 
                 print(f"Selected column from '{csv_file_path}' has been written to '{text_file_path}'")
         
