@@ -12,10 +12,11 @@ from collections import Counter
 import csv
 
 #opens the file. the with statement here will automatically close it afterwards.
-with open("text.txt") as input_file:
-    #build a counter from each word in the file
-    count = Counter(word for line in input_file
-                         for word in line.split())
+with open("text.txt") as file:
+    text=file.read()
+words= re.findall(r'\b[a-zA-Z]+\b', text) #extracts all the words in the text (no numbers, punctuation or symbols)
+#build a counter from each word in the file
+count = Counter(words)
 
 List = dict(count.most_common(30))
 print(List)
