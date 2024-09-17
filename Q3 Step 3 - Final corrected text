@@ -5,8 +5,7 @@
 #[Daniel Sales] - S322244
 #[Luke Few] - S348831
 print("Cas Group 305 - Assignment 2")
-print("Question 3")
-print("Step 3 - Run decrypted text and fix all errors")
+print("Question 3 Step 3 - Run decrypted text and fix all errors")
 print() #Print space
 
 global_variable = 100
@@ -56,3 +55,5 @@ if 5 not in my_dict:
 print(global_variable)
 print(my_dict)
 print(my_set)
+
+input("Press enter to close the program") #so user can see the output
