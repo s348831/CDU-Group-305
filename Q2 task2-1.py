@@ -5,7 +5,7 @@
 #[Daniel Sales] - S322244
 #[Luke Few] - S348831
 print("Cas Group 305 - Assignment 2")
-print("Question 2")
+print("Question 2 Task 2.1")
 print() #Print space
 
 s = '56aAww1984sktr235270aYmn145ss785fsq31D0'
