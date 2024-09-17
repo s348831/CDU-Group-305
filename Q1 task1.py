@@ -35,7 +35,7 @@ def csvs_to_text(csv_file_paths_with_columns, text_file_path):
 csv_files_with_columns = {
     'CSV1.csv': [2],       # column 2 which is C. starts from 0
     'CSV2.csv': [2],       # column 2 which is C. starts from 0
-    'CSV3.csv': [1],       # column 0 which is B. starts from 0
+    'CSV3.csv': [1],       # column 1 which is B. starts from 0
     'CSV4.csv': [1]        # column 1 which is B. starts from 0
 }
 output_file = 'text.txt'
