@@ -5,7 +5,7 @@
 #[Daniel Sales] - S322244
 #[Luke Few] - S348831
 print("Cas Group 305 - Assignment 2")
-print("Question 1 - Task 3.2")
+print("Question 1 Task 3.2")
 print() #Print space
 
 # import relevant modules
@@ -30,8 +30,8 @@ def token_file(file_path, number=30):
     return top_tokens
 
 
-file_path = "extractdiffcolumn.txt"  #file path of file to tokenize ***edit file name to read here
+file_path = "text.txt"  #file path of file to tokenize ***edit file name to read here
 top_tokens = token_file(file_path, number=30)  # start function and process file
 
 print() #Print space
-x = input("Press Enter key to exit")
+input("Press enter to close the program") #so user can see the output
