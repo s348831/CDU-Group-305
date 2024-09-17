@@ -17,7 +17,7 @@ import time
 
 start=time.time()
 
-with open('textcsv1.txt') as file:
+with open('text.txt') as file:
     text = file.read()
 sentences = re.split(r'(?<=[.!?]) +', text) #split the text into a list of sentences in order to use nlp.pipeline. 
 #Punctuation and numbers were not removed from the text as this interferes with spacy
