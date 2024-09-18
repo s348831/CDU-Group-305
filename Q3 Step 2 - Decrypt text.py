@@ -23,7 +23,7 @@ def encrypt(text, key):                    #Encryption code
 
 key = 13                                         #Input key from encryption code
 
-original_code="""                                #input encrypted text
+original_code="""                          
 tybony_inevnoyr = 100
 zl_qvpg = {'xrl1': 'inyhr1', 'xrl2': 'inyhr2', 'xrl3': 'inyhr3'}
 
