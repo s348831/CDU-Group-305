@@ -8,6 +8,9 @@ print("Cas Group 305 - Assignment 2")
 print("Question 1 Task 3.1")
 print() #Print space
 
+print("this might take a few seconds")
+print()
+
 from collections import Counter
 import csv
 import re
