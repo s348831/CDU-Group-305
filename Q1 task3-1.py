@@ -10,6 +10,7 @@ print() #Print space
 
 from collections import Counter
 import csv
+import re
 
 #opens the file. the with statement here will automatically close it afterwards.
 with open("text.txt") as file:
