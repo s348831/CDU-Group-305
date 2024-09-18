@@ -11,11 +11,14 @@ print() #Print space
 def decrypt(text, key):                   
     decrypted_text = ""
     for char in text:
-        shifted = ord(char) - key
-        if char.isupper():
-            if shifted < ord('A'): #wrap around
-                shifted +=26 
-        decrypted_text += chr(shifted)
+        if char.isalpha():
+            shifted = ord(char) - key
+            if char.isupper():
+                if shifted < ord('A'):
+                    shifted +=26
+            decrypted_text += chr(shifted)
+        else:
+            decrypted_text += char
     return decrypted_text
 
 key = 13  #determined by trial and error                                       
