@@ -7,7 +7,8 @@
 print("Cas Group 305 - Assignment 2")
 print("Question 1 Task 3.2")
 print() #Print space
-
+print("this might take a few minutes")
+print()
 # import relevant modules
 from collections import Counter
 from transformers import LongformerTokenizer
